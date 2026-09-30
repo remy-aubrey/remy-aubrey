@@ -23,13 +23,6 @@ I recently completed **Dev Academy Aotearoa's** intensive full-stack bootcamp, w
 - **The "Why":** This project shows I can lead a team, bring several third-party services together into one app, and ship a complete, playful product on a tight deadline.
 - 🎥 [Watch the presentation](https://www.youtube.com/watch?v=QWOL7PQwyuU)
 
-### 🧗 [BetaBase](https://github.com/remy-aubrey/BetaBase) (Work in Progress)
-
-**Why I'm building this:** Climbing "beta" (the moves for a route) is usually shared by and for taller climbers. BetaBase is a social platform where women and shorter climbers can share beta that works for their bodies and log their climbs.
-
-- **Tech:** React, TypeScript, Node.js, Express, Knex, SQLite.
-- **The "Why":** It's a solo project built around a community I'm part of. I'm designing the whole thing myself, from the data model to the UI, to make the sport more accessible to people it often overlooks.
-
 ### 🥫 [Spam-I-Am](https://github.com/remy-aubrey/spam-project) (Group Project)
 
 **Why we built this:** A deliberately silly website all about canned SPAM, built as a team project at Dev Academy. It has mini-games (Spam Jump, Whack A Spam, Snake), a flavour rating system, comments, and a personality quiz. The goal was to practice collaborative development and keep the code quality high on a fun, full-featured app.
@@ -37,6 +30,21 @@ I recently completed **Dev Academy Aotearoa's** intensive full-stack bootcamp, w
 - **My Role:** I set up user login with Auth0 and connected Cloudinary for image hosting. I also designed the database and seed data for the gallery, and wrote the CRUD operations that fetch data and display it in React for the About and Gallery pages.
 - **Tech:** React, TypeScript, Vite, TanStack Query, Tailwind CSS, Material UI, Node.js, Express, Knex, SQLite3, Auth0, Cloudinary, Vitest.
 - **The "Why":** This project shows I can take a feature from end to end: authentication, third-party media storage, database design, API routes, and the React UI that uses them.
+
+### 🧗‍♀️ [Kilter Climb Predictor](https://github.com/remy-aubrey/kilter-climb-predictor) (Work in Progress)(Solo)
+
+**Why I built this:** I train on a Kilter Board, an LED climbing wall with thousands of routes made by the community. I wanted to see if a machine learning model could learn what makes a good route and create brand-new climbs at a chosen grade. It also checks that every generated climb is reachable for someone of my height and wingspan.
+
+- **What it does:** It downloads 100k+ existing climbs and turns each route's holds, positions and grade into training data. It then trains an LSTM that predicts the next hold from the holds so far and the target grade. Using that model, it generates new routes one hold at a time and draws them in the terminal as ASCII art.
+- **Tech:** Python, PyTorch, pandas, Typer, Rich, pytest, boardlib.
+- **The "Why":** This was my first step into Python and machine learning outside the web stack. It shows I can build a complete data pipeline (collection, preprocessing, training and generation) and package it as a tested command-line tool.
+
+### 🧗 [BetaBase](https://github.com/remy-aubrey/BetaBase) (Work in Progress)(Solo)
+
+**Why I'm building this:** Climbing "beta" (the moves for a route) is usually shared by and for taller climbers. BetaBase is a social platform where women and shorter climbers can share beta that works for their bodies and log their climbs.
+
+- **Tech:** React, TypeScript, Node.js, Express, Knex, SQLite.
+- **The "Why":** It's a solo project built around a community I'm part of. I'm designing the whole thing myself, from the data model to the UI, to make the sport more accessible to people it often overlooks.
 
 ### ☕ [Mug Quiz](https://github.com/remy-aubrey/mug-quiz) (Solo Practice Project)
 
